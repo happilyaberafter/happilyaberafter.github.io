@@ -1384,27 +1384,11 @@ ul.contact-grids li i.icon11,ul.contact-grids li i.icon12,ul.contact-grids li i.
 ul.contact-grids li i.icon12{
   background: url(../images/icons.png)no-repeat -142px 0px;
 }
-ul.contact-grids li i.icon11:hover,ul.contact-grids li i.icon12:hover,ul.contact-grids li i.icon13:hover,ul.contact-grids li i.icon14:hover{
-  opacity: 0.9;
-  transition: 0.5s ease;
-  -webkit-transition: 0.5s  ease;
-  -o-transition:0.5s all ease;
-  -moz-transition: 0.5s ease;
-  -ms-transition:0.5s  ease;
-}
 ul.contact-grids li i.icon13{
   background: url(../images/icons.png)no-repeat -192px 0px;
 }
 ul.contact-grids li i.icon14{
   background: url(../images/icons.png)no-repeat -241px 0px;
-}
-ul.contact-grids li i.icon14:hover{
-  opacity: 0.5;
-  transition: 0.5s ease;
-  -webkit-transition: 0.5s  ease;
-  -o-transition:0.5s all ease;
-  -moz-transition: 0.5s ease;
-  -ms-transition:0.5s  ease;
 }
 ul.contact-grids {
   padding: 0;
@@ -1418,15 +1402,14 @@ ul.contact-grids li{
   margin-right: 1%;
 }
 li.contact-grid{
-  cursor: pointer;
   transition: 0.5s ease;
   -webkit-transition: 0.5s  ease;
   -o-transition:0.5s all ease;
   -moz-transition: 0.5s ease;
   -ms-transition:0.5s  ease;
 }
-li.contact-grid:hover {
-  opacity: 0.5;
+li.contact-grid a {
+  cursor: pointer;
 }
 ul.contact-grids h4{
  color: #408ff6;
