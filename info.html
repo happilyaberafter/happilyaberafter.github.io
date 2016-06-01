@@ -50,47 +50,54 @@
      <div class="event-section">
 		<div class="clearfix"></div>
 		<div class="container">
-			<div class="contact">
-					<h3>Information</h3>
-					<div class="contact-content">
-						<ul class="contact-grids">
-			       			<li class="contact-grid">
-			       				<h4>Contact Email</h4>
-			       				<a href="mailto:happilyaberafter@gmail.com"><h5>happilyaberafter@gmail.com</h5></a>
-			       			</li>
-			       			<li class="contact-grid">
-			       				<h4>Location</h4>
-			       				<a href="http://www.marriott.com/hotels/travel/ewrho-hanover-marriott/"><h5>Hanover Marriott<br>1401 NJ-10, Whippany, NJ 07981</h5></a>
-			       			</li>
-			       			<br>
-			       			<br>
-			       			<br>
-			       			<li class="contact-grid">
-			       				<h4>Macy's Registry</h4>
-			       				<a href="mailto:happilyaberafter@gmail.com"><h5><img src="images/macys.png" alt="macys" /></h5></a>
-			       			</li>
-			       			<li class="contact-grid">
-			       				<h4>Bed Bath & Beyond Registry</h4>
-			       				<a href="mailto:happilyaberafter@gmail.com"><h5><img src="images/bedbath.jpg" alt="bed, bath, and beyond" /></h5></a>
-			       			</li>
-       					</ul>
-					</div>
- 			</div>
- 			<br>
-			<h3>Map</h3>
-			<br>
-			<div id="myMap">
-					<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:400px;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">directory submission sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.8209574,-74.4129509),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.8209574,-74.4129509)});infowindow = new google.maps.InfoWindow({content:'<strong>Hanover Marriott</strong><br>1401 NJ-10, Whippany, NJ 07981<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-				</div>
+				<div class="contact">
+				 	<div class="container">
+					 		<h3>Information</h3>
+						 <div class="contact-content">
+							<ul class="contact-grids">
+			       				<li class="contact-grid phone">
+			       					<i class="icon11"> </i>
+			       					<h4>Phone Number</h4>
+			       					<h5>123-456-7890</h5>
+			       				</li>
+			       				<li class="contact-grid">
+			       					<i class="icon12"> </i>
+			       					<h4>Contact Email</h4>
+			       					<a href="mailto:happilyaberafter@gmail.com"><h5>happilyaberafter@gmail.com</h5></a>
+			       				</li>
+       							<div class="clearfix"> </div>
+       						</ul>
+       						<ul class="contact-grids">
+								<li class="contact-grid">
+			       					<h4>Macy's Registry</h4>
+			       					<a href="http://www.macys.com/registry/wedding/guest/?registryId=6492252"><h5><img src="images/macys.png" alt="macys" /></h5></a>
+			       				</li>
+			       				<li class="contact-grid">
+			       					<h4>Bed Bath & Beyond Registry</h4>
+			       					<a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=542855266&eventType=Wedding&pwsurl=?mcid=EM_triggeredem_emailregistryplural__allpromos"><h5><img src="images/bedbath.jpg" alt="bed, bath, and beyond" /></h5></a>
+			       				</li>
+			       				<li class="contact-grid">
+			       					<h4>Location</h4>
+			       					<a href="http://www.marriott.com/hotels/travel/ewrho-hanover-marriott/"><h5>Hanover Marriott<br>1401 NJ-10, Whippany, NJ 07981</h5></a>
+			       				</li>
+       							<div class="clearfix"> </div>
+       						</ul>
+       							<form>
+							    	<input type="text" class="textbox" value=" Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}">
+							    	<input type="text" class="textbox" value="Your E-Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your E-Mail';}">
+										<div class="clear"> </div>
+								    <div>
+								    	<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message ';}">Your Message</textarea>
+								    </div>	
+								   <div class="submit"> 
+								    	<input type="submit" value="SEND " />
+					              </div>
+								</form>
+							</div>
+ 						</div>	
+ 					</div>
 		</div>
  		<br>
-       			<div id="shriya">
-       				<h4>Website</h4>
-       				<div class="contact-content">
-       					<br>
-       					<p>Built by <a href="http://shriyanevatia.com/">Shriya Nevatia</a><br>See more of her work on her <a href="https://www.linkedin.com/in/shriyanevatia">LinkedIn</a></p>
-       				</div>
-       			</div>
  		</div>	
  	</div> <!-- end event section -->
 <!--/bottom-section-->
@@ -102,7 +109,10 @@
 <!--footer-->
 	<div class="footer">
 		  <div class="container">
-		  		<p></p>
+		  		<div class="copy">
+		              <p>&copy; 2016 Happily Aber After. Design by <a href="https://www.linkedin.com/in/shriyanevatia">Shriya Nevatia</a> </p>
+		              <br>
+		      	</div>
 				<div class="clearfix"></div>
 			</div>
 			<div class="clearfix"></div>
