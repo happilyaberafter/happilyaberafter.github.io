@@ -53,6 +53,8 @@
   position: center;
   width: 100%;
   margin: 1em;
+  align-items: center;
+  justify-content: center }
 }
 
 .flip-clock-wrapper:before,
@@ -67,7 +69,7 @@
 /* Skeleton */
 .flip-clock-wrapper ul {
   position: center;
-  float: left;
+  float: center;
   margin: 5px;
   width: 60px;
   height: 90px;
